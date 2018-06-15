@@ -13,8 +13,8 @@ def first_challenge
     }
   }
 
-  #your code here
-
+contacts.each{|person, data| data.each {|attribute, value| if attribute == favorite_icecream_flavors:
+favorite_icecream_flavors.shift }}
 
   #remember to return your newly altered contacts hash!
   contacts
